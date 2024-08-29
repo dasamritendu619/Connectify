@@ -1,5 +1,5 @@
 import { Router } from "express";
-import upload from "../middlewares/multer.middleware.js";
+import upload from "../middlewares/multer.middlewares.js";
 import { 
     createPost,
     forkPost,
@@ -10,7 +10,7 @@ import {
     getPostDetailsForUpdate,
     getProfilePosts,
  } from "../controllers/post.controller.js";
-import { verifyJWT , checkCurrentUser} from "../middlewares/auth.middleware.js";
+import { verifyJWT , checkCurrentUser} from "../middlewares/auth.middlewares.js";
 
 
 const router = Router();

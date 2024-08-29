@@ -5,7 +5,7 @@ import {
     toggleLikePost,
     getProfilesWhoLikePost,
 } from "../controllers/likes.controller.js";
-import {verifyJWT,checkCurrentUser} from "../middlewares/auth.middleware.js";
+import {verifyJWT,checkCurrentUser} from "../middlewares/auth.middlewares.js";
 
 const router = Router();
 

@@ -4,7 +4,7 @@ import {ApiError} from '../utils/ApiError.js';
 import {ApiResponce} from '../utils/ApiResponse.js';
 import {asyncHandler} from "../utils/asyncHandeler.js";
 import {uploadOnCloudinary,deleteFromCloudinary} from '../utils/cloudinary.js';
-import {DEFAULT_GROUP_ICON,DEFAULT_GROUP_BANNER} from '../constants.js';
+import {DEFAULT_GROUP_ICON,DEFAULT_GROUP_BANNER} from '../constant.js';
 import mongoose from 'mongoose';
 
 const createGroup = asyncHandler(async (req, res) => {

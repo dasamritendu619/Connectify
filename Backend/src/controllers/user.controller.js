@@ -4,7 +4,7 @@ import { User } from "../models/user.model.js";
 import { ApiError } from "../utils/ApiError.js";
 import { ApiResponce } from "../utils/ApiResponse.js";
 import { sendMail } from "../utils/resend.js";
-import { DEFAULT_AVATAR, DEFAULT_COVER_PHOTO } from "../constants.js"
+import { DEFAULT_AVATAR, DEFAULT_COVER_PHOTO } from "../constant.js";
 import { deleteFromCloudinary, uploadOnCloudinary } from "../utils/cloudinary.js";
 import jwt from "jsonwebtoken";
 
@@ -205,13 +205,13 @@ const verifyUser = asyncHandler(async (req, res) => {
 
 const loginUser = asyncHandler(async (req, res) => {
     // get email,password from req.body
-    const { identifier, password } = req.body;
+    const { email, password } = req.body;
     // check if email,password exists or not
-    if (!identifier || !password) {
+    if (!email || !password) {
         throw new ApiError(400, "Email or username and password are required");
     }
     // find user by email or username
-    const user = await User.findOne({ $or: [{ email: identifier }, { username: identifier }] });
+    const user = await User.findOne({ email: email }).select("+password");
     // if user not found
     if (!user) {
         throw new ApiError(404, "User not found");

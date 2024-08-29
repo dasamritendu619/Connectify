@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
-import {DEFAULT_AVATAR,DEFAULT_COVER_PHOTO} from "../constants.js";
+import {DEFAULT_AVATAR,DEFAULT_COVER_PHOTO} from "../constant.js";
 
 
 const userSchema = new mongoose.Schema({

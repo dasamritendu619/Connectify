@@ -4,7 +4,7 @@ import {
     searchUser,
     getSearchSuggestions
 } from '../controllers/search.controller.js';
-import {checkCurrentUser} from '../middlewares/auth.middleware.js';
+import {checkCurrentUser} from '../middlewares/auth.middlewares.js';
 
 const router=Router();
 

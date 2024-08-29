@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
-import {DEFAULT_GROUP_ICON,DEFAULT_GROUP_BANNER} from "../constants.js"
+import {DEFAULT_GROUP_ICON,DEFAULT_GROUP_BANNER} from "../constant.js"
 
 const groupSchema = new mongoose.Schema({
     createdBy: {

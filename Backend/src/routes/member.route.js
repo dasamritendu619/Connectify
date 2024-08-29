@@ -5,8 +5,8 @@ import {
     addUserUsingAdminId,
     leftGroup,
     removeMember
- } from "../controllers/member.controller.js"
- import {verifyJWT} from "../middlewares/auth.middleware.js"
+ } from "../controllers/members.controller.js";
+ import {verifyJWT} from "../middlewares/auth.middlewares.js"
 
 
 const router = Router();

@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { verifyJWT,checkCurrentUser} from "../middlewares/auth.middleware.js";
-import upload from "../middlewares/multer.middleware.js";
+import { verifyJWT,checkCurrentUser} from "../middlewares/auth.middlewares.js";
+import upload from "../middlewares/multer.middlewares.js";
 import {
     registerUser,
     verifyUser,

@@ -3,7 +3,7 @@ import {
     toggleSavedPosts,
     getSavedPosts
 } from "../controllers/saved.controller.js"; 
-import {verifyJWT} from '../middlewares/auth.middleware.js';
+import {verifyJWT} from '../middlewares/auth.middlewares.js';
 
 
 const router = Router();

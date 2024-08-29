@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { verifyJWT, checkCurrentUser } from "../middlewares/auth.middleware.js";
+import { verifyJWT, checkCurrentUser } from "../middlewares/auth.middlewares.js";
 import {
     toggleFollowUser,
     getAllFollowers,
