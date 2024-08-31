@@ -5,11 +5,11 @@ const CLOUDINARY_CLOUD_NAME = process.env.CLOUDINARY_CLOUD_NAME;
 const CLOUDINARY_API_KEY = process.env.CLOUDINARY_API_KEY;
 const CLOUDINARY_API_SECRET = process.env.CLOUDINARY_API_SECRET;
 
-const DEFAULT_AVATAR = 'https://res.cloudinary.com/dqufodszt/image/upload/v1715755091/sharelerner/illustration-businessman_53876-5856_1_-min_qkfjho.jpg';
-const DEFAULT_COVER_PHOTO= 'https://res.cloudinary.com/dqufodszt/image/upload/v1719900787/CM-hero-bg_2x_rtcdou.jpg';
-const DEFAULT_GROUP_ICON = 'https://res.cloudinary.com/dqufodszt/image/upload/v1719901224/image_qg6trs.png'; 
-const DEFAULT_GROUP_BANNER='https://res.cloudinary.com/dqufodszt/image/upload/v1719900521/download_fqyypb.jpg';
-const SHARELEARNER_LOGO = 'https://res.cloudinary.com/dqufodszt/image/upload/v1716363215/sharelerner/Main_1_u89enm.png'
+const DEFAULT_AVATAR = 'https://res.cloudinary.com/dqufodszt/image/upload/v1725093845/connectify/images_1_fwrent.png';
+const DEFAULT_COVER_PHOTO= 'https://res.cloudinary.com/dqufodszt/image/upload/v1725093845/connectify/group_cover_fzrcgu.webp';
+const DEFAULT_GROUP_ICON = 'https://res.cloudinary.com/dqufodszt/image/upload/v1725093845/connectify/GROUP_e56rte.png'; 
+const DEFAULT_GROUP_BANNER='https://res.cloudinary.com/dqufodszt/image/upload/v1725093845/connectify/cover_e6txoq.jpg';
+const CONNECTIFY_LOGO = 'https://res.cloudinary.com/dqufodszt/image/upload/v1725093846/connectify/Logo_3_du0rui.png'
 
 export { 
     DB_NAME, 
@@ -22,5 +22,5 @@ export {
     DEFAULT_COVER_PHOTO,
     DEFAULT_GROUP_ICON,
     DEFAULT_GROUP_BANNER,
-    SHARELEARNER_LOGO,
+    CONNECTIFY_LOGO,
 };
