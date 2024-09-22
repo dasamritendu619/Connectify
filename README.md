@@ -130,6 +130,6 @@ before running this command make sure that you have git installed in your local 
 ## Contributors
 
 - [Soumi Maity](https://github.com/Soumi-Maity)
-- [Amritendu Das](https://github.com/dasamriendu619)
+- [Amritendu Das](https://github.com/dasamritendu619)
 - [Sampurna Chattopadhyay](https://github.com/SampurnaChattopadhyay)
 - [Tanmoy Pramanik](https://github.com/TANMOY-PRAMANIK)
