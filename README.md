@@ -76,7 +76,7 @@ before running this command make sure that you have git installed in your local 
 
     ```bash
     MONGO_URI=
-    PORT=5000
+    PORT=8080
     ACCESS_TOKEN_SECRET=
     ACCESS_TOKEN_EXPIRY=
     REFRESH_TOKEN_SECRET=
@@ -115,7 +115,7 @@ before running this command make sure that you have git installed in your local 
 3. Move to the cloned directory
 
     ```bash
-    cd sharelearner-server
+    cd Backend
     ```
 4. Now make changes in the project and then push the changes to your repository.
 
